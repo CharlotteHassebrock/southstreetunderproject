@@ -1,0 +1,101 @@
+.bg-dark {background-color:white!important;}
+a {color: black!important;}
+
+body {  
+	margin-left: auto;
+  margin-right: auto;
+	background-color: white}
+.container {background-color: white}
+
+.image-container {font-size: 25px}
+h3{
+  font-family: "Birthstone", cursive;
+  font-weight: 400;
+  font-style: normal;font-size: 35px;
+}
+
+h1 {
+  font-family: "Titan One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+	color:cadetblue;}
+
+h2 {
+  font-family: "Titan One", sans-serif;
+  font-weight: 400;
+font-size: 30px;
+  font-style: normal;
+	color: cadetblue;
+	}
+
+ .link-button {
+      display: inline-block;
+      background-color: #d3d3d3; /* Light gray */
+      color: black;
+      padding: 12px 24px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 16px;
+      font-family: Arial, sans-serif;
+      transition: background-color 0.3s ease;
+    }
+
+    .link-button:hover {
+      background-color: #bfbfbf; /* Slightly darker gray on hover */
+    }
+
+.tab-pane {padding-left: 100px}
+
+      .image-container {
+      position: relative;
+      width: auto; /* Adjust as needed */
+    }
+
+    .image-container img {
+      width: 100%;
+      display: block;
+    }
+
+    .image-container h1 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 2.5em;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+      margin: 0;
+    }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;  }
+
+.column {
+float: left;
+  width: 10%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#about {background-color: saddlebrown;
+padding-left:100px;
+color: white;
+font-size: 18px}
+#carousel{background-color:antiquewhite}
+
+#footer {background-color:black;
+color:white}
+
+#pricing {padding-left: 100px}
+
+#baker {background-image: url(assets/staffciabatta.jpg);
+background-size: cover;
+	height:439px;}
